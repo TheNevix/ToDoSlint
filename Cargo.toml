@@ -2,5 +2,10 @@
 name = "ToDoSlint"
 version = "0.1.0"
 edition = "2021"
+build = "build.rs"
 
 [dependencies]
+slint = "1.6.0"
+
+[build-dependencies]
+slint-build = "1.6"
